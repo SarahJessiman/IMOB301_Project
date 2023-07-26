@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">University System</string>
+    <string name="heading">Login</string>
+    <string name="txtStudID">Enter Student ID</string>
+    <string name="txtUsername">Enter Username</string>
+    <string name="txtPassword">Enter Password</string>
+    <string name="Login">Login</string>
+    <string name="txtOutput">Output</string>
+    <string-array name="txtGroup">
+        <item>Select Login Role</item>
+        <item>Admin</item>
+        <item>Instructor</item>
+        <item>Student</item>
+    </string-array>
+    <string name="title_activity_item_detail_host">ItemDetailHostActivity</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+</resources>

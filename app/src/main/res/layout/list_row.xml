@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip">
+    <!--    <TextView-->
+    <!--        android:id="@+id/TaskID"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textSize="17dp" />-->
+    <TextView
+        android:id="@+id/TaskName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem Ipsum"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TaskModule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TaskName"
+        android:layout_marginTop="7dp"
+        android:text="Lorem Ipsum"
+        android:textColor="#343434"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/TaskDueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TaskModule"
+        android:layout_alignBottom="@+id/TaskModule"
+        android:layout_alignParentRight="true"
+        android:text="Lorem Ipsum"
+        android:textColor="#343434"
+        android:textSize="14dp" />
+
+    <CheckBox android:id="@+id/checkComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentRight="true" android:layout_marginRight="6sp"
+        android:focusable="false"
+        android:layout_alignBaseline="@+id/TaskName">
+    </CheckBox>
+</RelativeLayout>
